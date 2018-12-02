@@ -1,0 +1,52 @@
+html {
+	background: silver;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.butons__wrapper {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 150px;
+}
+
+.butons__wrapper button {
+	background: #e4e4e4;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+}
+
+.line {
+	margin-bottom: -1px;
+	display: flex;
+	height: 10px;
+}
+
+.block {
+	margin-left: -1px;
+	width: 8px;
+	height: 8px;
+	border: 1px solid silver;
+	background: #000;
+}
+
+.being {
+	background: lime;
+}
